@@ -15,6 +15,15 @@ The repositories below are open-source reference implementations of patterns fro
 | [databricks-medallion-lakehouse](https://github.com/darshansatpathy/databricks-medallion-lakehouse) | Each table is a spec; Lakeflow SQL, Unity Catalog governance and a bundle are generated and linted (not yet run on Databricks) |
 | [claude-agent-reference](https://github.com/darshansatpathy/claude-agent-reference) | A production agent loop on the Claude API in about 2,000 readable lines, zero runtime dependencies |
 
+#### Delivery governance for AI systems
+| Repository | What it proves |
+|---|---|
+| [ai-design-review-kit](https://github.com/darshansatpathy/ai-design-review-kit) | An AI architecture review as files: questions, evidence, accepted risks and a verdict CI can enforce |
+| [ai-threat-model-as-code](https://github.com/darshansatpathy/ai-threat-model-as-code) | Threats derived from the data-flow graph and mapped to OWASP LLM Top 10 and MITRE ATLAS ids; ready, conditional or blocked |
+| [model-promotion-gates](https://github.com/darshansatpathy/model-promotion-gates) | 23 evidence-bound gates on model stage transitions, with approvals tied to the exact artefact digest and expiring waivers |
+| [data-contracts-registry](https://github.com/darshansatpathy/data-contracts-registry) | Data contracts as reviewed code; a change that would break a consumer fails the build |
+| [ai-finops-showback](https://github.com/darshansatpathy/ai-finops-showback) | AI spend by team and app from usage exports, shared costs allocated by explicit rule, totals that agree to the cent |
+
 #### Agent platform and safety
 | Repository | What it proves |
 |---|---|
