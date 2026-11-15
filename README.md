@@ -1,10 +1,49 @@
-### Darshan Kumar Satpathy
+# Darshan Kumar Satpathy
 
-AI & Data Solutions Architect in Bhubaneswar, India. I architect enterprise AI that makes it to production: multi-agent platforms, governed data agents, bank risk models, streaming and lakehouse platforms. Portfolio: **[darshansatpathy.github.io](https://darshansatpathy.github.io)** · [LinkedIn](https://www.linkedin.com/in/darshansatpathy)
+**Solutions Architect, Data & AI. Agentic and governed AI, from pilot to production.**
+
+Bhubaneswar, India · [Portfolio](https://darshansatpathy.github.io) · [LinkedIn](https://www.linkedin.com/in/darshansatpathy)
+
+I have delivered 111 enterprise AI systems across 12 industries, including platforms used by 100,000+ people. My work sits in three places: agent platforms with guardrails enforced in code, AI governance that a reviewer can check, and the data and ML platforms underneath. I also teach: 10,000+ students and professionals trained since 2018.
 
 Open to Lead and Principal AI Architect roles, including international and remote-first teams.
 
-The repositories below are open-source reference implementations of patterns from my production work. They run on synthetic or public data, are tested in CI and each one measures the failure it is built to prevent.
+## Start here
+
+If you read three repositories, read these.
+
+| Repository | Why it is a good first read |
+|---|---|
+| [ai-platform-reference-architecture](https://github.com/darshansatpathy/ai-platform-reference-architecture) | A 27-component AI platform written as data. A fitness-function checker fails the build when the design contradicts itself. |
+| [agent-guardrails-gateway](https://github.com/darshansatpathy/agent-guardrails-gateway) | Policy enforcement between agents and their tools. 23 of 23 attack scenarios contained. |
+| [ai-governance-evidence-pack](https://github.com/darshansatpathy/ai-governance-evidence-pack) | 41 EU AI Act, NIST AI RMF and ISO/IEC 42001 controls mapped to hash-pinned evidence, with gaps stated openly. |
+
+## From client work to open code
+
+My client systems are not public. Each flagship case study on my [portfolio](https://darshansatpathy.github.io) has an open reference implementation that distils the same pattern. The outcomes in the middle column are from the client work. The repositories run on synthetic or public data and do not reproduce those outcomes.
+
+| Case study | Outcome in client work | Open reference code |
+|---|---|---|
+| Executive intelligence with governed data agents | 100,000+ enterprise users | [governed-data-agents](https://github.com/darshansatpathy/governed-data-agents), [agentic-rag-reference](https://github.com/darshansatpathy/agentic-rag-reference), [agent-memory-service](https://github.com/darshansatpathy/agent-memory-service) |
+| Multi-agent operations automation | 40% shorter processing cycles | [multi-agent-ops-automation](https://github.com/darshansatpathy/multi-agent-ops-automation), [agent-guardrails-gateway](https://github.com/darshansatpathy/agent-guardrails-gateway), [human-in-the-loop-inbox](https://github.com/darshansatpathy/human-in-the-loop-inbox), [mcp-server-toolkit](https://github.com/darshansatpathy/mcp-server-toolkit) |
+| No-code agent studio | 35+ agents run by 50,000+ business users | [no-code-agent-studio](https://github.com/darshansatpathy/no-code-agent-studio), [agent-eval-harness](https://github.com/darshansatpathy/agent-eval-harness), [agent-tracing-otel](https://github.com/darshansatpathy/agent-tracing-otel) |
+| Demand and supply forecasting | 97% forecast accuracy | [demand-forecasting-platform](https://github.com/darshansatpathy/demand-forecasting-platform) |
+| Autonomous database incident remediation | 1,000+ incidents resolved | [db-incident-remediation-agents](https://github.com/darshansatpathy/db-incident-remediation-agents) |
+| Lakehouse consolidation | 60% lower query latency | [lakehouse-iceberg-trino](https://github.com/darshansatpathy/lakehouse-iceberg-trino) |
+| High-availability model inference | 99.9% availability | [ha-model-inference-platform](https://github.com/darshansatpathy/ha-model-inference-platform), [llm-router-cost-telemetry](https://github.com/darshansatpathy/llm-router-cost-telemetry) |
+| Spatial AI digital twin | Sub-millimetre precision on LiDAR | [lidar-gnn-digital-twin](https://github.com/darshansatpathy/lidar-gnn-digital-twin) |
+| Enterprise ML risk platform for banking | 15+ models, ~$100M losses prevented | [credit-risk-ml-platform](https://github.com/darshansatpathy/credit-risk-ml-platform) |
+| Teradata and Oracle to Snowflake migration | 1,000+ analytics users moved | [snowflake-migration-toolkit](https://github.com/darshansatpathy/snowflake-migration-toolkit) |
+| Real-time transaction streaming | 15M+ transactions a day, zero data loss | [realtime-transaction-streaming](https://github.com/darshansatpathy/realtime-transaction-streaming) |
+| Migration of 1,000+ integration interfaces | 1,000+ interfaces in 12 months | [integration-migration-factory](https://github.com/darshansatpathy/integration-migration-factory) |
+
+## How to read these repositories
+
+- They run on synthetic or public data and are not client systems.
+- CI runs the tests, linters and type checks, and CodeQL scans each repository.
+- Most READMEs state their limits, for example that the Databricks lakehouse has not yet been run on Databricks.
+
+## All repositories
 
 #### Enterprise architecture, cloud and governance
 | Repository | What it proves |
