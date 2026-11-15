@@ -6,6 +6,15 @@ Open to Lead and Principal AI Architect roles, including international and remot
 
 The repositories below are open-source reference implementations of patterns from my production work. They run on synthetic or public data, are tested in CI and each one measures the failure it is built to prevent.
 
+#### Enterprise architecture, cloud and governance
+| Repository | What it proves |
+|---|---|
+| [azure-ai-landing-zone](https://github.com/darshansatpathy/azure-ai-landing-zone) | Private, keyless Azure OpenAI in Terraform, with a policy-as-code checker that fails the build if a door is reopened |
+| [ai-platform-reference-architecture](https://github.com/darshansatpathy/ai-platform-reference-architecture) | A 27-component AI platform written as data; `archfit` fails the build when the design contradicts itself |
+| [ai-governance-evidence-pack](https://github.com/darshansatpathy/ai-governance-evidence-pack) | 41 EU AI Act, NIST AI RMF and ISO 42001 controls mapped to hash-pinned evidence, with gaps stated openly |
+| [databricks-medallion-lakehouse](https://github.com/darshansatpathy/databricks-medallion-lakehouse) | Each table is a spec; Lakeflow SQL, Unity Catalog governance and a bundle are generated and linted (not yet run on Databricks) |
+| [claude-agent-reference](https://github.com/darshansatpathy/claude-agent-reference) | A production agent loop on the Claude API in about 2,000 readable lines, zero runtime dependencies |
+
 #### Agent platform and safety
 | Repository | What it proves |
 |---|---|
